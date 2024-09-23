@@ -1,0 +1,46 @@
+.hd{
+    background-color: black; 
+    
+    height: 100px;
+}
+.m{
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+    margin:10px 10px 10px 10px; ;
+}        
+p{
+    text-align: center;
+}
+.ff{
+
+display: flex;
+flex-direction: row;
+align-content: center;
+justify-content: center;
+gap: 3px;
+}
+.box{
+border: solid black;
+border-width: 5px;
+height: fit-content;
+min-inline-size: 250px;
+max-inline-size: 250px;
+}
+.ft{
+color: white;
+height: 150px;
+background-color: black;
+text-align: center;
+padding: 10px 10px 10px 10px;
+margin: 10px 10px 10px 10px;
+}
+.inp{
+    height: 50px;
+    width: 900px;
+    padding: 0px 0px 0px 20px;
+}
+.pa:hover {
+color: white;
+background-color: black;
+transition: all 0.3s ease;
+}
